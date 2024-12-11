@@ -13,11 +13,11 @@
     <key>hashedAdminPassword</key>
     <string />
     <key>allowQuit</key>
-    <false />
+    <true />
     <key>ignoreExitKeys</key>
     <true />
     <key>hashedQuitPassword</key>
-    <string>8577DA2EA54085708B3B851BC50315A36BB740BA5135E747CFB12457B5D3060F</string>
+    <string>5455FC3FB94CF1D5CAC49792B3C79BE4376671A1C1FFFAF3EDF630D61840E838</string>
     <key>exitKey1</key>
     <integer>2</integer>
     <key>exitKey2</key>
@@ -49,7 +49,7 @@
     <key>mainBrowserWindowPositioning</key>
     <integer>1</integer>
     <key>enableBrowserWindowToolbar</key>
-    <true />
+    <false />
     <key>hideBrowserWindowToolbar</key>
     <false />
     <key>showMenuBar</key>

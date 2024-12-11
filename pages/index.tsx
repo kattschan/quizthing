@@ -95,7 +95,7 @@ const Home = () => {
             <Button 
               className="mt-4"
             >
-              Retry Quiz
+              Exit
             </Button>
             </a>
           </div>
