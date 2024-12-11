@@ -26,11 +26,11 @@ const Home = () => {
     }
   ];
 
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [selectedAnswers, setSelectedAnswers] = useState({});
-  const [showResults, setShowResults] = useState(false);
+  const [currentQuestion, setCurrentQuestion]: any = useState(0);
+  const [selectedAnswers, setSelectedAnswers]: any = useState({});
+  const [showResults, setShowResults]: any = useState(false);
 
-  const handleAnswer = (value) => {
+  const handleAnswer = (value: any) => {
     setSelectedAnswers({
       ...selectedAnswers,
       [currentQuestion]: value
@@ -91,16 +91,13 @@ const Home = () => {
                 )}
               </div>
             ))}
+            <a href="https://quitseb.com/">
             <Button 
-              onClick={() => {
-                setCurrentQuestion(0);
-                setSelectedAnswers({});
-                setShowResults(false);
-              }}
               className="mt-4"
             >
               Retry Quiz
             </Button>
+            </a>
           </div>
         </CardContent>
       </Card>
